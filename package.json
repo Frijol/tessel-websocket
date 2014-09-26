@@ -1,0 +1,27 @@
+{
+  "name": "tessel-websocket",
+  "version": "1.0.0",
+  "description": "Basic websocket connection on Tessel",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Frijol/tessel-websocket"
+  },
+  "hardware": {},
+  "keywords": [
+    "tessel",
+    "websockets"
+  ],
+  "author": "Kelsey Breseman",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/Frijol/tessel-websocket/issues"
+  },
+  "homepage": "https://github.com/Frijol/tessel-websocket",
+  "dependencies": {
+    "nodejs-websocket": "^1.0.0"
+  }
+}
