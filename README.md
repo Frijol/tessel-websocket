@@ -9,7 +9,7 @@ Talk to Tessel over a websocket connection. This is a set of basic instructions 
 
 1. Clone this repo.
 1. Plug in Tessel to your computer.
-1. [Connect Tessel to Wifi](start.tessel.io/wifi) with `tessel wifi -n <network> -p <password`. Be sure to connect your Tessel to the same network as your computer.
+1. [Connect Tessel to Wifi](start.tessel.io/wifi) with `tessel wifi -n network -p password`. Be sure to connect your Tessel to the same network as your computer.
 1. Once Tessel is connected, run `tessel wifi -l` to get your Tessel's IP address.
 1. In `client.js`, set `ipAddress` as your Tessel's IP address.
 1. In your terminal, run `tessel run server.js` to start your Tessel listening.
