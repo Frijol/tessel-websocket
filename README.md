@@ -7,7 +7,7 @@ Talk to Tessel over a websocket connection. This is a set of basic instructions 
 
 ## Setup
 
-1. Clone this repo.
+1. Clone this repo, enter its directory and run `npm install`.
 1. Plug in Tessel to your computer.
 1. [Connect Tessel to Wifi](start.tessel.io/wifi) with `tessel wifi -n network -p password`. Be sure to connect your Tessel to the same network as your computer.
 1. Once Tessel is connected, run `tessel wifi -l` to get your Tessel's IP address.
