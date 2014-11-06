@@ -1,5 +1,4 @@
 var ws = require('nodejs-websocket');
-var tessel = require('tessel');
 var port = 8000;
 
 // Create the websocket server, provide connection callback
